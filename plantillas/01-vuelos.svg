@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+<defs><linearGradient id="bg" x2="0" y2="1"><stop stop-color="#A5ECE3"/><stop offset="1" stop-color="#85D8D4"/></linearGradient><filter id="shadow"><feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#22536A" flood-opacity=".14"/></filter></defs>
+<rect width="1080" height="1350" fill="url(#bg)"/>
+<circle cx="1015" cy="390" r="165" fill="#C7F3E8" opacity=".8"/>
+<circle cx="45" cy="1120" r="200" fill="#C7F3E8" opacity=".55"/>
+<text x="540" y="104" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="55" font-weight="900" fill="#18385C">✈  DeClaseTurista</text>
+<text x="540" y="148" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="22" font-weight="500" fill="#18385C">Ayudas, ofertas y oportunidades para viajar</text>
+<rect x="155" y="180" width="770" height="76" rx="38" fill="#FFDB59"/>
+<text x="540" y="232" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="34" font-weight="900" fill="#18385C">¡OFERTA DE VUELOS!</text>
+<text x="540" y="345" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="92" font-weight="900" fill="#18385C">MADRID</text>
+<text x="540" y="405" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="30" font-weight="700" fill="#18385C">España · ida y vuelta</text>
+<path d="M 860 380 l 110 -60 -28 54 20 40 -35 -12 -30 30 8 -42 z" fill="#FFFFFF" opacity=".75"/>
+<g filter="url(#shadow)"><rect x="90" y="455" width="900" height="240" rx="46" fill="#FF786F"/></g>
+<text x="540" y="520" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="30" font-weight="800" fill="white">TARIFA DE EJEMPLO · POR PERSONA</text>
+<text x="540" y="637" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="95" font-weight="900" fill="white">USD 650</text>
+<rect x="90" y="735" width="900" height="126" rx="32" fill="white"/>
+<text x="540" y="787" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="35" font-weight="900" fill="#18385C">BUENOS AIRES  →  MADRID</text>
+<text x="540" y="830" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="30" font-weight="700" fill="#18385C">EZE  →  MAD</text>
+<rect x="90" y="887" width="900" height="126" rx="32" fill="white"/>
+<text x="540" y="940" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="37" font-weight="900" fill="#18385C">12/02–02/03 · 18 días</text>
+<text x="540" y="984" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="28" font-weight="600" fill="#18385C">Febrero–marzo 2027</text>
+<rect x="90" y="1038" width="900" height="70" rx="32" fill="#FFDB59"/><text x="540.0" y="1085" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="28" font-weight="800" fill="#18385C">EJEMPLO VISUAL · PRECIO NO VERIFICADO</text>
+<rect x="90" y="1188" width="900" height="104" rx="34" fill="white"/>
+<text x="540" y="1232" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="23" font-weight="900" fill="#18385C">CONSULTÁ DISPONIBILIDAD Y CONDICIONES</text>
+<text x="540" y="1267" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="23" font-weight="700" fill="#18385C">Link de reserva en el texto del post</text>
+</svg>
