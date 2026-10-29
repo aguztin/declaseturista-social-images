@@ -3,6 +3,7 @@ on:
   push:
     paths:
       - 'pruebas/*.svg'
+      - 'scripts/render_cards.py'
   workflow_dispatch:
 permissions:
   contents: write
@@ -15,19 +16,21 @@ jobs:
         with:
           python-version: '3.12'
       - run: pip install cairosvg
+      - name: Generate three branded card templates
+        run: python scripts/render_cards.py
       - name: Convert SVG artwork to PNG
         run: |
           python - <<'PY'
           from pathlib import Path
           import cairosvg
-          for src in Path("pruebas").glob("*.svg"):
+          for src in list(Path("pruebas").glob("*.svg")) + list(Path("plantillas").glob("*.svg")):
               cairosvg.svg2png(url=str(src),write_to=str(src.with_suffix(".png")))
           PY
       - name: Commit PNG images
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add pruebas/*.png
+          git add pruebas/*.png plantillas/*.svg plantillas/*.png
           if ! git diff --cached --quiet; then
             git commit -m "Render social artwork PNG"
             git push
