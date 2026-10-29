@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """DeClaseTurista social card generator. No third-party Python packages needed.
 Usage: python scripts/render_cards.py
-All example values are DEMOS and must never be presented as verified deals.
+All example values are DESIGN DEMOS and must never be presented as verified deals.
 """
 from pathlib import Path
 from html import escape
